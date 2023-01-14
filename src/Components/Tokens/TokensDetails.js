@@ -135,7 +135,7 @@ function TokensDetails() {
         >
           <Grid container  sx={{ height: '93vh' }} className="gridContainer">
             <Grid item xs={12} md={4} sx={{bgcolor: '#fff',}}>
-              <Typography variant='h4' sx={{textAlign:'center',marginTop:'30px'}}>Tokens Details</Typography>
+              <Typography variant='h4' sx={{textAlign:'center',marginTop:'30px'}} className="TokensDetailStyle">Tokens Details</Typography>
               <Stack className="inputStack" spacing={1}>
               <Typography variant='h6' sx={{color:'#4682B4'}}>Blue Token</Typography>
               <TextField

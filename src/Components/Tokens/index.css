@@ -5,3 +5,12 @@
 .inputStack{
     margin:20px;
 }
+.TokensDetailStyle{
+    position: relative;
+    animation-name: landingAni;
+    animation-duration: 1s;
+}
+@keyframes landingAni {
+    0%   {left:0px; top:-40px;}
+    100%  {left:0px; top:0px;}
+}

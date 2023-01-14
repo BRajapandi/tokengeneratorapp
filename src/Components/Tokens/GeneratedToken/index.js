@@ -6,7 +6,7 @@ import './index.css'
 function GeneratedTokens({blueTokens,redTokens,rowCount}) {
   return (
     <>
-    <Typography variant='h4' sx={{textAlign:'center',marginTop:'30px'}}>Generated Tokens</Typography>
+    <Typography variant='h4' sx={{textAlign:'center',marginTop:'30px'}} className="TokensDetailStyle">Generated Tokens</Typography>
     <Typography variant='h6' sx={{paddingLeft:"20px"}}>Blue Tokens</Typography>
      <Grid container>
                 {blueTokens.length >0 ? blueTokens.map((e,index)=>(
