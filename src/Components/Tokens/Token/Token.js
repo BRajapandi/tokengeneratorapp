@@ -1,8 +1,7 @@
-import React from 'react'
 
-function Token() {
+function Token({prefix,color}) {
   return (
-    <div>Token</div>
+    <div className='TokenStyle' style={color ==="blue"?{background:'#4682B4'}:{background:'#DC143C'}}>{prefix}</div>
   )
 }
 

@@ -1,0 +1,20 @@
+.generatedTokenGrid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.TokenStyle{
+    padding: 10px;
+    margin: 10px 0px;
+}
+.NoTokenStyle{
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.GeneratedTokenStyle{
+  height: 100%;
+  background: whitesmoke;
+  overflow-y: scroll;
+}
