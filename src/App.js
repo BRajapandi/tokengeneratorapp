@@ -1,10 +1,13 @@
-import './App.css';
+import ErrorBoundaryIndex from './Components/ErrorBoundaries/Index';
+import TokensDetails from './Components/Tokens/TokensDetails';
 
 function App() {
   return (
-    <div>
-      Token Generator App
-    </div>
+    <>
+      <ErrorBoundaryIndex>
+        <TokensDetails/>
+      </ErrorBoundaryIndex>
+    </>
   );
 }
 
